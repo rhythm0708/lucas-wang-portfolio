@@ -14,7 +14,7 @@
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/0a510a4691.js" crossorigin="anonymous"></script>
@@ -22,10 +22,325 @@
     <!-- Feather Icons -->
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_back_ios" />
+
     <!-- Script-->
     <script src="script.js" defer></script>
 </head>
 <body>
+    <header>
+        <h1>
+            <span class="red shift-up">Lucas</span> 
+            <span id="divider"></span>
+            <span class="green shift-down">Wang</span></h1>
+        <h2>game design • web dev • project management</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Websites</a></li>
+                <li><a href="#">Production</a></li>
+                <li><a href="research/index.html">Research</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <main>
+        <section id="intro">
+            <h3 id="hey-there">Hey there!</h3>
+            <p>My name is Lucas. I’m a game designer / web developer / production manager who loves to connect people through play. I specialize in making games intuitive and scalable so they can impact as many people as possible.</p>
+    
+            <p>Click on any of the icons below to learn more about me and my projects!</p>
+        </section>
+    
+        <section id="cards">
+            <h3>Featured Projects</h3>
+            <ul class="card-list">
+                <li class="left-arrow"><i data-feather="chevron-left"></i></li>
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/studio-blocket-icon.png" alt="Studio Blocket (Project)">
+                        <div class="card-label">
+                            <p class="label-name">Studio Blocket</p>
+                            <p class="label-descript">My tabletop games studio</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/blocket-icon.jpg" alt="Blocket (Game)">
+                        <div class="card-label">
+                            <p class="label-name">Blocket</p>
+                            <p class="label-descript">An abstract strategy game</p>
+                        </div>
+                    </a>
+                </li>
+    
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/sling-fighter-icon.png" alt="Sling Fighter (Game)">
+                        <div class="card-label">
+                            <p class="label-name">Sling Fighter!</p>
+                            <p class="label-descript">An arcade fighting game</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/pc-mystery-icon.png" alt="Point-and-click Mystery (Website)">
+                        <div class="card-label">
+                            <p class="label-name">Mystery of the Destroyed Project</p>
+                            <p class="label-descript">A point-and-click mystery game</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/tomales-resilience-icon.jpg" alt="Tomales Resilience (Project)">
+                        <div class="card-label">
+                            <p class="label-name">Tomales: Resilience</p>
+                            <p class="label-descript">A board game for vulnerable communities</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="right-arrow"><i data-feather="chevron-right"></i></li>
+
+            </ul>
+
+            <h3>Games</h3>
+            <ul class="card-list">
+                <li class="left-arrow"><i data-feather="chevron-left"></i></li>
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/blocket-icon.jpg" alt="Blocket (Game)">
+                        <div class="card-label">
+                            <p class="label-name">Blocket</p>
+                            <p class="label-descript">An abstract strategy game</p>
+                        </div>
+                    </a>
+                </li>
+    
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/sling-fighter-icon.png" alt="Sling Fighter (Game)">
+                        <div class="card-label">
+                            <p class="label-name">Sling Fighter!</p>
+                            <p class="label-descript">An arcade fighting game</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/snowba-icon.png" alt="Snowba (Game)">
+                        <div class="card-label">
+                            <p class="label-name">Snowba</p>
+                            <p class="label-descript">A drink-mixing visual novel</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/zynbol-icon.png" alt="Welcome to Zynbol! (Game)">
+                        <div class="card-label">
+                            <p class="label-name">Welcome to Zynbol!</p>
+                            <p class="label-descript">A language-based puzzle game</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/unfortunately-icon.png" alt="Unfortunately (Game)">
+                        <div class="card-label">
+                            <p class="label-name">Unfortu- nately</p>
+                            <p class="label-descript">Microgames based on Terror Jr's Music</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/nyekatsu-icon.png" alt="Nyekatsu City (Game)">
+                        <div class="card-label">
+                            <p class="label-name">Nyekatsu City</p>
+                            <p class="label-descript">A quirky 3D platformer</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/scary-fruit-icon.png" alt="my scary fruit game (Game)">
+                        <div class="card-label">
+                            <p class="label-name">my scary fruit game</p>
+                            <p class="label-descript">A fruit-catching game... with a twist!</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/fling-patrick-icon.png" alt="Fling Patrick! (Game)">
+                        <div class="card-label">
+                            <p class="label-name">Fling Patrick!</p>
+                            <p class="label-descript">An adventure game made for GMTK Game Jam 2022</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/multi-icon.png" alt="multi (Game)">
+                        <div class="card-label">
+                            <p class="label-name">multi</p>
+                            <p class="label-descript">A walking simulator about grief</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="right-arrow"><i data-feather="chevron-right"></i></li>
+
+            </ul>
+
+            <h3>Interactive Websites</h3>
+            <ul class="card-list small-list">
+                <li class="left-arrow"><i data-feather="chevron-left"></i></li>
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/pc-mystery-icon.png" alt="Point-and-click Mystery (Website)">
+                        <div class="card-label">
+                            <p class="label-name">Mystery of the Destroyed Project</p>
+                            <p class="label-descript">A point-and-click mystery game</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/random-idea-icon.png" alt="Random Idea Generator (Website)">
+                        <div class="card-label">
+                            <p class="label-name">The Random Idea Generator</p>
+                            <p class="label-descript">A mad-libs style experiment</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/rps-nuzlocke-icon.png" alt="RPS Nuzlocke (Website)">
+                        <div class="card-label">
+                            <p class="label-name">Rock, Paper, Scissors Nuzlocke</p>
+                            <p class="label-descript">A thrilling online showdown</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/gamer-personality-icon.png" alt="Gamer Personality Quiz (Website)">
+                        <div class="card-label">
+                            <p class="label-name">Game Personality Quiz</p>
+                            <p class="label-descript">A short personality test</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="right-arrow"><i data-feather="chevron-right"></i></li>
+            </ul>
+
+            <h3>Production</h3>
+            <ul class="card-list small-list">
+                <li class="left-arrow"><i data-feather="chevron-left"></i></li>
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/studio-blocket-icon.png" alt="Studio Blocket (Project)">
+                        <div class="card-label">
+                            <p class="label-name">Studio Blocket</p>
+                            <p class="label-descript">My tabletop games studio</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/tomales-resilience-icon.jpg" alt="Tomales Resilience (Project)">
+                        <div class="card-label">
+                            <p class="label-name">Tomales: Resilience</p>
+                            <p class="label-descript">A board game for vulnerable communities</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/gdac-icon.png" alt="Game Development & Arts Club (Project)">
+                        <div class="card-label">
+                            <p class="label-name">Game Development & Arts Club</p>
+                            <p class="label-descript">Actions as Co-President</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="right-arrow"><i data-feather="chevron-right"></i></li>
+
+            </ul>
+        </section>
+
+        <section class="lists">
+            <div id="research">
+                <h3>Research</h3>
+                <p>Some research papers that I've written + talks that I've given.</p>
+                <ul>
+                    <li class="red"><a href="#" class="red hover-line">Papers</a></li>
+                    <li class="red"><a href="#" class="red hover-line">Talks</a></li>
+                    <li class="red"><a href="#" class="red hover-line">Presentations</a></li>
+                </ul>
+            </div>
+            <div id="side-projects">
+                <h3>Side Projects</h3>
+                <p>Side projects that I did to extend myself and my skills.</p>
+
+                <ul>
+                    <li class="green hover-line"><a href="#">Translations for The California Aggie (SPA)</a></li>
+                    <li class="green hover-line"><a href="#">EuLearn— A K-12 program that blends maths and critical thinking</a></li>
+                    <li class="green hover-line"><a href="#">GDAC Puzzle Hunt 2024</a></li>
+                    <li class="green hover-line"><a href="#">Repository of tutoring resources (self-made)</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <p class="bold">Hey! Thanks for checking out my portfolio! Want to learn more? Click the links in the footer below.</p>
+    </main>
+
+    <footer>
+        <div id="resume">
+            <p class="bold">Resumé</p>
+            <p>Click <a href="#">here</a> to see my resumé.</p>
+        </div>
+        <div id="cv">
+            <p class="bold">CV</p>
+            <p>Click <a href="#">here</a> to see my full CV.</p>
+        </div>
+        <div id="location">
+            <p class="bold">Based in</p>
+            <p>Davis, California</p>
+            <p><i>(Open to moving)</i></p>
+        </div>
+        <div id="contact">
+            <p class="bold">Contact</p>
+            <p>Feel free to contact me through:</p>
+            <ul>
+                <li><i class="fa-solid fa-phone"></i> (530) 304-3555</li>
+                <li><i class="fa-solid fa-envelope"></i> &#099;&#119;&#119;&#097;&#110;&#103;&#048;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

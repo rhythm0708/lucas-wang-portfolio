@@ -139,7 +139,7 @@ footer {
 
 /* Layout */
 
-/* Layout — Header */
+/* Layout — Header */
 header {
     position: relative;
     padding-bottom: 5svh;
@@ -186,102 +186,6 @@ header nav ul {
     gap: 2svw;
 }
 
-/* Layout — Main */
-main {
-    padding: 5svh 2.5svw;
-    width: 50%;
-
-    display: grid;
-    place-self: center;
-}
-
-#hey-there {
-    padding-bottom: 2svh;
-}
-
-#intro {
-    margin-bottom: 4svh;
-}
-
-.card-list {
-    display: flex;
-    align-items: top;
-    justify-content: space-between;
-    gap: 10px;
-    padding-left: 0px;
-    /*overflow: hidden;*/
-    position: relative;
-
-    list-style-type: none;
-}
-
-.small-list {
-    justify-content: left;
-}
-
-.left-arrow, .right-arrow {
-    display: grid;
-    place-self: center;
-    cursor: pointer;
-    padding: 0 10px;
-
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-}
-
-.left-arrow {
-    left: -3svw;
-}
-
-.right-arrow {
-    right: -3svw;
-}
-
-.card-item {
-    flex: 0 0 calc(20% - 10px);
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-
-.card-item img {
-    display: grid;
-    place-self: center;
-
-    width: 200px;
-    height: auto;
-    border-radius: 8px;
-}
-
-.card-label {
-    padding: 10px;
-}
-
-#cards ul {
-    margin-bottom: 40px;
-}
-
-.lists {
-    display: flex;
-    gap: 5svw;
-}
-
-#research, #side-projects {
-    flex: 1;
-}
-
-.lists ul li {
-    margin-bottom: 1em;
-}
-
-.lists ul li ul li {
-    padding-top: 1em;
-}
-
-.lists {
-    margin-bottom: 40px;
-}
-
 /* Layout — Footer */
 footer {
     display: flex;
@@ -305,82 +209,11 @@ footer ul li {
     margin-bottom: 10px;
 }
 
-/* Animation */
+/* Layout — Main */
+main {
+    padding: 5svh 2.5svw;
+    width: 50%;
 
-.card-item:hover {
-    transform: scale(1.1);
-}
-
-.card-item.visible {
-    display: block;
-    animation-name: slide-left;
-    animation-duration: 0.5s;
-    animation-direction: reverse;
-}
-
-.card-item.hidden {
-    display: none; 
-}
-
-.card-item.slide-left {
-    animation-name: slide-left;
-    animation-duration: 0.5s;
-}
-
-.card-item.slide-right {
-    animation-name: slide-right;
-    animation-duration: 0.5s;
-}
-
-.hover-line {
-    position: relative;
-    cursor: pointer;
-
-    padding-right: 5px;
-}
-
-.hover-line::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px; 
-    background-color: currentColor;
-    transition: width 0.3s ease;
-}
-
-.hover-line:hover::after {
-    width: 100%;
-}
-
-@keyframes slide-left {
-    0% {
-        transform: translateX(0%);
-    }
-    50% {
-        transform: translateX(5%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
-}
-
-@keyframes slide-right {
-    0% {
-        transform: translateX(0%);
-    }
-    50% {
-        transform: translateX(-5%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-    .card-item {
-        flex: 0 0 calc(50% - 10px);
-    }
+    display: grid;
+    place-self: center;
 }
